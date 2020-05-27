@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="threadx"
+    fetch="https://github.com/azure-rtos" />
+  <default revision="master"
+           remote="threadx"
+           sync-j="4" />
+
+  <project path="threadx" name="threadx" groups="threadx" />
+  <project path="guix" name="guix" groups="threadx" />
+  <project path="azure-iot-preview" name="azure-iot-preview" groups="threadx" />
+  <project path="getting-started" name="getting-started" groups="threadx" />
+  <project path="netxduo" name="netxduo" groups="threadx" />
+  <project path="usbx" name="usbx" groups="threadx" />
+  <project path="levelx" name="levelx" groups="threadx" />
+  <project path="netx" name="netx" groups="threadx" />
+  <project path="samples" name="samples" groups="threadx" />
+  <project path="filex" name="filex" groups="threadx" />
+</manifest>
