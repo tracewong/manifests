@@ -4,6 +4,7 @@
 #下载repo
 ## 1.1.从github上下载repo
 $ curl https://raw.githubusercontent.com/tinalinux/repo/stable/repo > ~/bin/repo
+
 ## 1.2.将repo添加到环境变量
 $ chmod +x ~/bin/repo
 $ export PATH=~/bin:$PATH
